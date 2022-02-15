@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ed45d5117b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>TO-DO LIST</h1>
+        <br><br>
+        <div class="input">
+        <input id="text" type="text" placeholder="What you want to do" autofocus>&nbsp;<button id="add">ADD</button>
+        </div>
+        <br><br><br>
+        <div id="todolist">
+        <ol >
+            <li>Buy Groceries<span><i class="far fa-check-circle"></i><i class="fas fa-edit" id="edit"></i><i id="trash" class="fas fa-trash-alt"></i></span></li>
+            <li>Go to Gym<span><i class="far fa-check-circle"></i><i class="fas fa-edit" id="edit"></i><i id="trash" class="fas fa-trash-alt"></i></span></li>
+        </ol>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
